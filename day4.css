@@ -1,0 +1,73 @@
+#hdr{
+	width:100%;
+	height:100px;
+	background-color:#32210f;
+	display: flex;
+	padding-left:60px; padding-right:60px;
+}
+#logo{margin-top:25px;
+		flex: 1;
+	font-family: "Lucida Console", "Courier New", monospace;
+	
+}
+#menuhdr{
+	flex: 1;
+		
+}
+#logo>.logohdr {
+	font-size:26px;
+	color:white;
+	
+}
+#logo>.smaltxt {
+	font-size:13px;
+	color:white;
+}
+input[type=button] {
+ background-color: #A6D609;
+ padding:8px;
+ color:white;
+ border-radius: 0px 0px 5px 5px;
+ border: 2px solid white;
+ cursor: pointer;
+ float:right;
+ margin-right:150px;
+ font-family: "Lucida Console", "Courier New", monospace;
+ font-size:16px;
+}
+
+[class$="world"] {
+  color: yellow;
+}
+[class$="tree"] {
+  color: green;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+ margin-right:120px;
+ font-family: "Lucida Console", "Courier New", monospace;
+}
+.menu > li {
+  font-size: 15px;
+  padding:16px;
+ list-style:none;
+ margin-top:8px;
+ text-shadow: 6px 6px 8px black;
+
+}
+
+a[href] {
+ color:white;
+ text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+#main_container{
+	width:100%;
+	background-color:#F2EAE5;
+	text-align:center;	
+	
+}h4{font-family: "Lucida Console", "Courier New", monospace;margin:0px"}
