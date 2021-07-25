@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="day3.css"></style>    
+<title>Js training day4 Arrays</title>
+</head>
+<body>
+    <h2>Arrays examples</h2>
+    <button onclick="myFunction()">Push</button>
+<div id="demo"></div>
+    <script>
+        const fruits= ["Banana","Orange","Apple", "Guva"];
+        document.getElementById("demo").innerHTML = fruits;
+
+        function myFunction(){
+            fruits.push("lemon", "Promogranate");
+            document.getElementById("demo").innerHTML= fruits;
+
+        }
+
+    </script>
+</body>
+</html>

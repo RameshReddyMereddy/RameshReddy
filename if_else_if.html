@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="day3.css"></style>    
+<title>Js training day3 conditions</title>
+</head>
+<body>
+    <h2>this is if Else conditions</h2>
+    <p>time based conditions</p>
+<div id="demo"></div>
+    <script>
+        const time = new Date().getHours();
+        let greeting;
+        if(time > 18 ) {      
+            greeting = "Good morning";
+    }
+    else if(time < 20){
+        greeting= "Good day";
+    }
+    else{
+        greeting="Good Evening";
+    }
+    document.getElementById("demo").innerHTML= greeting;
+    </script>
+</body>
+</html>
